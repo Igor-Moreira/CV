@@ -8,14 +8,16 @@ const Index = (props) => {
     return (
         // key -> identificação do repositório
         <div className='container mx-auto'>
-            <div className='grid grid-cols-2 pt-16'>               
+            <div className='grid grid-cols-2 pt-16 leading-none'>               
                 <div className='col-start-1 pt-20'> 
-                    <h1 className='font-medium text-3xl tracking-widest'>Hi, I'm</h1>
-                    <h1 className='font-display text-6xl tracking-wider'>Igor Moreira</h1>
-                    <h1 className='font-bold text-3xl tracking-widest'>Computer Engineer</h1>
+                    <h1 className='font-medium text-2xl tracking-widest'>Hi, I'm</h1>
+                    <h1 className='font-display text-5xl tracking-wider'>Igor Moreira</h1>
+                    <h1 className='font-bold text-2xl tracking-widest'>Computer Engineer</h1>
                 </div>
                 <div className='col-start-2 '><img src ='/images/Igor-Moreira.png'/></div>
-            </div>                                    
+            </div>
+            
+            
             <h2 className='font-display text-4xl text-center'>Meus repositórios no github</h2>
             <p className='font-medium text-xl'>Github stats: public_repos: {props.user.public_repos} </p>            
             {props.repos.map(repo => {
