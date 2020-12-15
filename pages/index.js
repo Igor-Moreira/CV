@@ -7,12 +7,20 @@ const Index = (props) => {
 //const Index = ({repos,user}) => {
     return (
         // key -> identificação do repositório
-        <div className='container mx-auto'>                        
-            <h2 className='font-bold text-3xl text-center'>Meus repositórios no github</h2>
-            <p>Github stats: public_repos: {props.user.public_repos} </p>            
+        <div className='container mx-auto'>
+            <div className='grid grid-cols-2 pt-16'>               
+                <div className='col-start-1 pt-20'> 
+                    <h1 className='font-medium text-3xl tracking-widest'>Hi, I'm</h1>
+                    <h1 className='font-display text-6xl tracking-wider'>Igor Moreira</h1>
+                    <h1 className='font-bold text-3xl tracking-widest'>Computer Engineer</h1>
+                </div>
+                <div className='col-start-2 '><img src ='/images/Igor-Moreira.png'/></div>
+            </div>                                    
+            <h2 className='font-display text-4xl text-center'>Meus repositórios no github</h2>
+            <p className='font-medium text-xl'>Github stats: public_repos: {props.user.public_repos} </p>            
             {props.repos.map(repo => {
                 return(
-                    <div key ={repo.id} className='rounded bg-gray-200 mx-8 my-4 p-4 hover:shadow-md'>
+                    <div key ={repo.id} className='text-xl rounded bg-gray-200 mx-8 my-4 p-4 hover:shadow-md'>
                         <h3 className='font-bold'>{repo.full_name}</h3>
                         <p>Language: {repo.language}</p>
                         

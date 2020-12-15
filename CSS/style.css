@@ -3,3 +3,12 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+body{ 
+
+ background-color: #E5E5E5;
+ background-image: url(/images/Back1.png), url(/images/Back2.png);
+ background-repeat: no-repeat, no-repeat;
+ background-position: right top, left bottom;
+ background-size: auto, auto;
+}

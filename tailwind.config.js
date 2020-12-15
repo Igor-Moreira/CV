@@ -1,7 +1,8 @@
 module.exports = {
     theme: {
         fontFamily: {
-            sans: ['"Irish Grover"']
+            sans: ['Quicksand'],
+            display: ['Racing Sans One']
         }
     }
 }

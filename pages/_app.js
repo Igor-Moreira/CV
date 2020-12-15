@@ -8,8 +8,9 @@ class MyApp extends App {
         return (
             <React.Fragment>
                 <style jsx global>
-                {`
-                    @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+                {`                    
+                    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
                 `}
                 </style>
                 <Component {...pageProps} />
