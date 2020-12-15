@@ -17,6 +17,14 @@ const Index = (props) => {
                 <div className='col-start-2 '><img src ='/images/Igor-Moreira.png'/></div>
             </div>
             
+            <div className='bg-primary bg-opacity-75  rounded-full py-3 px-10  tracking-widest '>                 
+                    <h1 className='opacity-100 uppercase text-center font-display text-gray-900 text-4xl'>what i do</h1>
+                    <div className='flex items-center justify-center text-2xl mt-2 leading-8 text-white font-bold'>
+                        <h1 className='pr-8 pl-8'>FullStack Developer</h1>
+                        <h1 className='pr-8 pl-8 '>Computer Engineer</h1>
+                        <h1 className='pr-8 pl-8'>Marketing Enthusiast</h1>
+                    </div>
+            </div>
             
             <h2 className='font-display text-4xl text-center'>Meus repositórios no github</h2>
             <p className='font-medium text-xl'>Github stats: public_repos: {props.user.public_repos} </p>            
