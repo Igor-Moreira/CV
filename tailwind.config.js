@@ -5,13 +5,12 @@ module.exports = {
             'primary': '#3583A5',
             'secondary': '#ffed4a',
             'danger': '#e3342f',
-           }),
-           gradientColorStops: theme => ({
+        }),
+        gradientColorStops: theme => ({
             ...theme('colors'),
             'primary': '#3583A5',
             'secondary': '#779BAB',            
-           }),
- 
+        }), 
         extend: {
             fontFamily: {
                 sans: ['Quicksand'],
