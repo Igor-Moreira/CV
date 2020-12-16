@@ -9,9 +9,10 @@ body{
  
 }
 .bg-network{
+
+    background-image: url(/images/Back1.png), url(/images/Back2.png) ;
+    background-repeat: no-repeat, no-repeat ;
+    background-position: right top, left bottom ;
+    background-size: 1200px 1200px, 1200px 1200px ;
     
-    background-image: url(/images/Back1.png), url(/images/Back2.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: right top, left bottom;
-    background-size: auto, auto;
 }
