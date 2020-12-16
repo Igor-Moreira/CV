@@ -7,13 +7,13 @@ const Index = (props) => {
 //const Index = ({repos,user}) => {
     return (
         // key -> identificação do repositório
-        <div className='container mx-auto '>
+        <div className='container mx-auto bg-network'>
             <div className='grid grid-cols-4 pt-16 leading-none '>                            
                 <div className=' col-start-2 col-span-2 pt-30 '>
                     <div className='pt-48'> 
-                        <h1 className='font-medium text-2xl tracking-widest'>Hi, I'm</h1>
+                        <h1 className='font-medium text-2xl tracking-widest '>Hi, I'm</h1>
                         <h1 className='font-display text-5xl tracking-wider'>Igor Moreira</h1>
-                        <h1 className='font-bold text-2xl tracking-widest'>Computer Engineer</h1>
+                        <h1 className='font-bold text-2xl tracking-widest '>Computer Engineer</h1>
                         <div className='pt-20'>
                             <div className='shadow-lg border-current'>
                                 <h1 className=''>Contact me</h1>
