@@ -26,10 +26,10 @@ const Index = (props) => {
                 <div className=' col-start-7 col-span-2'><img src ='/images/Igor-Moreira.png'/></div>
             </div>
             
-            <div className='  rounded-full py-3 tracking-widest shadow-2xl'>                 
+            <div className=' bg-gradient-to-r from-transparent via-primary  rounded-full py-3 tracking-widest shadow-2xl'>                 
                 <div className=''>
-                    <h1 className='opacity-100 uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
-                    <div className='flex items-center justify-center p-32 py-5 text-3xl mt-5 mb-10 leading-8 text-white font-medium'>
+                    <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
+                    <div className='flex items-center justify-center  py-5 text-3xl mt-5 mb-10 leading-8 text-blue-900  font-bold'>
                         <h1 className='pr-8 pl-8 '>FullStack Developer</h1>
                         <h1 className='pr-8 pl-8 '>Computer Engineer</h1>
                         <h1 className='pr-8 pl-8'>Marketing Enthusiast</h1>
