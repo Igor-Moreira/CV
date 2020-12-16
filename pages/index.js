@@ -32,9 +32,9 @@ const Index = (props) => {
                     <div className=''>
                         <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
                         <div className='flex items-center justify-center  py-5 text-3xl mt-5 mb-10 leading-8 text-blue-900  font-bold'>
-                            <h1 className='pr-8 pl-8 '>FullStack Developer</h1>
-                            <h1 className='pr-8 pl-8 '>Computer Engineer</h1>
-                            <h1 className='pr-8 pl-8'>Marketing Enthusiast</h1>
+                            <h2 className='pr-8 pl-8 '>FullStack Developer</h2>
+                            <h2 className='pr-8 pl-8 '>Computer Engineer</h2>
+                            <h2 className='pr-8 pl-8'>Marketing Enthusiast</h2>
                         </div>
                     </div>
                 </div>
@@ -47,19 +47,19 @@ const Index = (props) => {
                 <div className='flex items-center justify-center '>
                     <div className='bg-gradient-to-r from-transparent via-primary shadow-2xl ellipse flex items-center justify-center '>                 
                         <div className='text-center leading-8 text-blue-900 uppercase tracking-widest'>
-                            <h1 className='text-xl font-bold'>graduation degree</h1>
-                            <h1 className='pr-8 pl-8 font-regular text-3xl pt-6'>Computer Engineer</h1>
-                            <h1 className='pr-8 pl-8 pt-5 font-bold text-xl pt-6'>ufu - university of uberlândia</h1>
+                            <h3 className='text-xl font-bold'>graduation degree</h3>
+                            <h3 className='pr-8 pl-8 font-regular text-3xl pt-6'>Computer Engineer</h3>
+                            <h3 className='pr-8 pl-8 pt-5 font-bold text-xl pt-6'>ufu - university of uberlândia</h3>
                         </div>
                     </div>
                 </div>                     
                 
-                <h2 className='font-display text-4xl text-center pt-8 uppercase'>TECH CONTRIBUTIONS</h2>
+                <h4 className='font-display text-4xl text-center pt-8 uppercase'>TECH CONTRIBUTIONS</h4>
                 <p className='font-medium text-2xl mx-8'>Github stats: public_repos: {props.user.public_repos} </p>            
                 {props.repos.map(repo => {
                     return(
                         <div key ={repo.id} className='text-xl rounded bg-gray-300 bg-opacity-75 mx-8 my-4 p-4 hover:shadow-md'>
-                            <h3 className='font-bold'>{repo.full_name}</h3>
+                            <h5 className='font-bold'>{repo.full_name}</h5>
                             <p>Language: {repo.language}</p>
                             
                         </div>)
