@@ -7,20 +7,28 @@ const Index = (props) => {
 //const Index = ({repos,user}) => {
     return (
         // key -> identificação do repositório
-        <div className='container mx-auto'>
-            <div className='grid grid-cols-2 pt-16 leading-none'>               
-                <div className='col-start-1 pt-20'> 
+        <div className='container mx-auto '>
+            <div className='grid grid-cols-4 pt-16 leading-none '>               
+                <div className=' col-start-2 col-span-2 pt-30 '> 
                     <h1 className='font-medium text-2xl tracking-widest'>Hi, I'm</h1>
                     <h1 className='font-display text-5xl tracking-wider'>Igor Moreira</h1>
                     <h1 className='font-bold text-2xl tracking-widest'>Computer Engineer</h1>
+                    <div className='pt-20'>
+                        <div className='shadow-lg border-current'>
+                            <h1 className='text-indigo-600 group-hover:text-gray-900'>Contact me</h1>
+                            <h1>Linkedin</h1>
+                            <h1>Github</h1>
+                        </div>
+                    </div>
                 </div>
-                <div className='col-start-2 '><img src ='/images/Igor-Moreira.png'/></div>
+
+                <div className=' col-start-7 col-span-2'><img src ='/images/Igor-Moreira.png'/></div>
             </div>
             
-            <div className='bg-primary bg-opacity-75  rounded-full py-3 px-10  tracking-widest '>                 
-                    <h1 className='opacity-100 uppercase text-center font-display text-gray-900 text-4xl'>what i do</h1>
-                    <div className='flex items-center justify-center text-2xl mt-2 leading-8 text-white font-bold'>
-                        <h1 className='pr-8 pl-8'>FullStack Developer</h1>
+            <div className=' bg-gradient-to-r  from-current via-primary to-current bg-opacity-25 rounded-full py-3 px-10 tracking-widest '>                 
+                    <h1 className='opacity-100 uppercase text-center font-display text-gray-900 text-6xl'>what i do</h1>
+                    <div className='flex items-center justify-center py-5 text-4xl mt-5 mb-10 leading-8 text-white font-medium'>
+                        <h1 className='pr-8 pl-8 hover:transparent'>FullStack Developer</h1>
                         <h1 className='pr-8 pl-8 '>Computer Engineer</h1>
                         <h1 className='pr-8 pl-8'>Marketing Enthusiast</h1>
                     </div>
