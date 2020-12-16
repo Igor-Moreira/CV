@@ -7,7 +7,8 @@ const Index = (props) => {
 //const Index = ({repos,user}) => {
     return (
         // key -> identificação do repositório
-        <div className='container mx-auto bg-network'>
+        <div className='container mx-auto bg-network'> 
+                   
             <div className='grid grid-cols-4 pt-16 leading-none '>                            
                 <div className=' col-start-2 col-span-2 pt-30 '>
                     <div className='pt-48'> 
@@ -25,7 +26,7 @@ const Index = (props) => {
                 </div>
                 <div className=' col-start-7 col-span-2'><img src ='/images/Igor-Moreira.png'/></div>
             </div>
-            
+        
             <div className=' simple-linear  rounded-full py-3 tracking-widest shadow-2xl'>                 
                 <div className=''>
                     <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
@@ -36,21 +37,21 @@ const Index = (props) => {
                     </div>
                 </div>
             </div>
+            
             <div>
                 <h1 className='uppercase text-center font-display text-gray-900 text-5xl tracking-widest pt-16'>my education</h1>
                 <h1 className='pt-16'></h1>
             </div>
-            <div className=' tracking-widest grid grid-cols-3 gap-4 '>
-                <div className='m-8 mx-60 my-auto'>
-                    <div className='col-start-2 bg-gradient-to-r from-transparent via-primary shadow-2xl ellipse flex items-center justify-center '>                 
-                        <div className='text-center leading-8 text-blue-900 uppercase'>
-                            <h1 className='text-xl font-bold'>graduation degree</h1>
-                            <h1 className='pr-8 pl-8 font-regular text-3xl pt-6'>Computer Engineer</h1>
-                            <h1 className='pr-8 pl-8 pt-5 font-bold text-xl pt-6'>ufu - university of uberlândia</h1>
-                        </div>
+           
+            <div className='flex items-center justify-center '>
+                <div className='bg-gradient-to-r from-transparent via-primary shadow-2xl ellipse flex items-center justify-center '>                 
+                    <div className='text-center leading-8 text-blue-900 uppercase tracking-widest'>
+                        <h1 className='text-xl font-bold'>graduation degree</h1>
+                        <h1 className='pr-8 pl-8 font-regular text-3xl pt-6'>Computer Engineer</h1>
+                        <h1 className='pr-8 pl-8 pt-5 font-bold text-xl pt-6'>ufu - university of uberlândia</h1>
                     </div>
                 </div>
-            </div>            
+            </div>                     
             
             <h2 className='font-display text-4xl text-center pt-8 uppercase'>TECH CONTRIBUTIONS</h2>
             <p className='font-medium text-2xl mx-8'>Github stats: public_repos: {props.user.public_repos} </p>            
