@@ -44,7 +44,7 @@ const Index = (props) => {
                 <div className='m-8 mx-60 my-auto'>
                     <div className='col-start-2 bg-gradient-to-r from-transparent via-primary shadow-2xl ellipse flex items-center justify-center '>                 
                         <div className='text-center leading-8 text-blue-900 uppercase'>
-                            <h1 className='text-blue-900 text-xl font-bold'>graduation degree</h1>
+                            <h1 className='text-xl font-bold'>graduation degree</h1>
                             <h1 className='pr-8 pl-8 font-regular text-3xl pt-6'>Computer Engineer</h1>
                             <h1 className='pr-8 pl-8 pt-5 font-bold text-xl pt-6'>ufu - university of uberlândia</h1>
                         </div>
