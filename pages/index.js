@@ -11,17 +11,15 @@ const Index = (props) => {
             <div className='container mx-auto'>
                    
                 <div className='grid grid-cols-4 pt-16 leading-none '>                            
-                    <div className=' col-start-2 col-span-2 pt-30 '>
-                        <div className='pt-48'> 
+                    <div className='col-start-2 col-span-2'>
+                        <div className='pt-32'> 
                             <h1 className='font-medium text-2xl tracking-widest '>Hi, I'm</h1>
                             <h1 className='font-display text-5xl tracking-wider'>Igor Moreira</h1>
                             <h1 className='font-bold text-2xl tracking-widest '>Computer Engineer</h1>
-                            <div className='pt-20'>
-                                <div className='shadow-lg border-current'>
-                                    <h1 className=''>Contact me</h1>
-                                    <h1>Linkedin</h1>
-                                    <h1>Github</h1>
-                                </div>
+                            <div className='relative border-primary border rounded  py-4 mt-6 pt-10 shadow-lg'>
+                                <h1 className='absolute rounded-lg bg-primary py-2 px-6 top-0 mx-16 -mt-5 text-white text-xl font-bold uppercase'>Contact me</h1>
+                                <h1>Linkedin</h1>
+                                <h1>Github</h1>                                
                             </div>
                         </div>                    
                     </div>
