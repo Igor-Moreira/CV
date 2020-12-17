@@ -1,5 +1,8 @@
 import React from 'react'
 import getUser from '../utils/getUser'
+import { IoLogoWhatsapp } from 'react-icons/io';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { FaGithub } from 'react-icons/fa';
 
 //Front-end
 const Index = (props) => {
@@ -8,6 +11,7 @@ const Index = (props) => {
     return (
         // key -> identificação do repositório
         <div className='bg-network '> 
+        
             <div className='container mx-auto'>
                    
                 <div className='grid grid-cols-4 pt-16 leading-none '>                            
@@ -18,8 +22,13 @@ const Index = (props) => {
                             <h1 className='font-bold text-2xl tracking-widest '>Computer Engineer</h1>
                             <div className='relative border-primary border rounded  py-4 mt-6 pt-10 shadow-lg'>
                                 <h1 className='absolute rounded-lg bg-primary py-2 px-6 top-0 mx-16 -mt-5 text-white text-xl font-bold uppercase'>Contact me</h1>
-                                <h1>Linkedin</h1>
-                                <h1>Github</h1>                                
+                                <ul className='flex items-center justify-center  text-4xl mt-2 mb-5'>
+                                    <li  className='pr-8 pl-8'><IoLogoWhatsapp /></li>
+                                    <li  className='pr-8 pl-8'><AiFillLinkedin /></li>
+                                    <li  className='pr-8 pl-8'><FaGithub /></li>
+                                </ul>
+                                <h1 className='flex items-center justify-center'> or drop a line: igor_moreira@live.com </h1>
+                                                               
                             </div>
                         </div>                    
                     </div>
@@ -30,8 +39,8 @@ const Index = (props) => {
                     <div className=''>
                         <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
                         <div className='flex items-center justify-center  py-5 text-3xl mt-5 mb-10 leading-8 text-blue-900  font-bold'>
-                            <h2 className='pr-8 pl-8 '>FullStack Developer</h2>
-                            <h2 className='pr-8 pl-8 '>Computer Engineer</h2>
+                            <h2 className='pr-8 pl-8'>FullStack Developer</h2>
+                            <h2 className='pr-8 pl-8'>Computer Engineer</h2>
                             <h2 className='pr-8 pl-8'>Marketing Enthusiast</h2>
                         </div>
                     </div>
