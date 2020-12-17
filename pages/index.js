@@ -70,7 +70,7 @@ const Index = (props) => {
                     {props.repos.map(repo => {
                         return(
                             <div key ={repo.id} className='text-center text-xl rounded-t-lg bg-primary bg-opacity-30 mx-8 my-2 p-4 hover:shadow-md'>
-                                <h5 className='font-bold '>{repo.full_name}</h5>
+                                <h5 className='font-bold hover:underline'><a href={'https://github.com/' + repo.full_name}>{repo.full_name}</a></h5>
                                 <p className='font-medium'>Language: {repo.language}</p>
                                 
                             </div>)
