@@ -2,7 +2,14 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
+body{
+    background: #E5E5E5;
+    background-color: #E5E5E5;
+    background-image: url(/images/Back1.png), url(/images/Back2.png) ;
+    background-repeat: no-repeat, no-repeat ;
+    background-position: right top, left bottom ;
+    background-size: 1200px 1200px, 1200px 1200px ;
+}
 .bg-network{
     background-color: #E5E5E5;
     background-image: url(/images/Back1.png), url(/images/Back2.png) ;

@@ -3,6 +3,8 @@ import getUser from '../utils/getUser'
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaGithub } from 'react-icons/fa';
+import {RiGitRepositoryLine} from 'react-icons/ri'
+
 
 //Front-end
 const Index = (props) => {
@@ -10,7 +12,8 @@ const Index = (props) => {
 //const Index = ({repos,user}) => {
     return (
         // key -> identificação do repositório
-        <div className='bg-network '> 
+        //<div className='bg-network'> 
+        <div className=''> 
         
             <div className='container mx-auto'>
                    
@@ -38,10 +41,10 @@ const Index = (props) => {
                 <div className=' simple-linear  rounded-full py-3 tracking-widest shadow-2xl'>                 
                     <div className=''>
                         <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
-                        <div className='flex items-center justify-center  py-5 text-3xl mt-5 mb-10 leading-8 text-blue-900  font-bold'>
-                            <h2 className='pr-8 pl-8'>FullStack Developer</h2>
-                            <h2 className='pr-8 pl-8'>Computer Engineer</h2>
-                            <h2 className='pr-8 pl-8'>Marketing Enthusiast</h2>
+                        <div className='flex items-center justify-center  py-5 text-2xl mt-5 mb-10 leading-8 text-blue-900  font-bold uppercase'>
+                            <h2 className='pr-5 pl-5'>FullStack Developer</h2>
+                            <h2 className='pr-5 pl-5'>Computer Engineer</h2>
+                            <h2 className='pr-5 pl-5'>Marketing Enthusiast</h2>
                         </div>
                     </div>
                 </div>
@@ -62,15 +65,17 @@ const Index = (props) => {
                 </div>                     
                 
                 <h4 className='font-display text-4xl text-center pt-8 uppercase'>TECH CONTRIBUTIONS</h4>
-                <p className='font-medium text-2xl mx-8'>Github stats: public_repos: {props.user.public_repos} </p>            
-                {props.repos.map(repo => {
-                    return(
-                        <div key ={repo.id} className='text-xl rounded bg-gray-300 bg-opacity-75 mx-8 my-4 p-4 hover:shadow-md'>
-                            <h5 className='font-bold'>{repo.full_name}</h5>
-                            <p>Language: {repo.language}</p>
-                            
-                        </div>)
-                })}
+                <p className='flex items-center justify-center font-medium text-xl mx-8 text-center'>Github stats: <RiGitRepositoryLine/> {props.user.public_repos - 1}  </p>            
+               <div className ='grid grid-cols-2 gap-4 my-6'>
+                    {props.repos.map(repo => {
+                        return(
+                            <div key ={repo.id} className='text-center text-xl rounded-t-lg bg-primary bg-opacity-30 mx-8 my-2 p-4 hover:shadow-md'>
+                                <h5 className='font-display '>{repo.full_name}</h5>
+                                <p className='font-bold'>Language: {repo.language}</p>
+                                
+                            </div>)
+                    })}
+                </div>
             </div>
         </div>
     )
