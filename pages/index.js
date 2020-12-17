@@ -13,7 +13,7 @@ const Index = (props) => {
     return (
         // key -> identificação do repositório
         //<div className='bg-network'> 
-        <div className=''> 
+        <div className='bg-network'> 
         
             <div className='container mx-auto'>
                    
@@ -70,8 +70,8 @@ const Index = (props) => {
                     {props.repos.map(repo => {
                         return(
                             <div key ={repo.id} className='text-center text-xl rounded-t-lg bg-primary bg-opacity-30 mx-8 my-2 p-4 hover:shadow-md'>
-                                <h5 className='font-display '>{repo.full_name}</h5>
-                                <p className='font-bold'>Language: {repo.language}</p>
+                                <h5 className='font-bold '>{repo.full_name}</h5>
+                                <p className='font-medium'>Language: {repo.language}</p>
                                 
                             </div>)
                     })}
