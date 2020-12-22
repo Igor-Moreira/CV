@@ -20,10 +20,10 @@ const Index = (props) => {
             <div className=' simple-linear  rounded-full py-3 tracking-widest shadow-2xl'>                 
                 <div className=''>
                     <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
-                    <div className='flex items-center justify-center  py-5 md:text-2xl mt-5 mb-10 leading-8 text-blue-900  font-bold uppercase'>
-                        <h2 className='md:pr-5 md:pl-5'>FullStack Developer</h2>
-                        <h2 className='md:pr-5 md:pl-5'>Computer Engineer</h2>
-                        <h2 className='md:pr-5 md:pl-5'>Marketing Enthusiast</h2>
+                    <div className='flex items-center justify-center divide-x divide-primary text-sm px-5 md:py-5 md:text-2xl mt-5 mb-10 leading-8 text-blue-900 font-bold uppercase'>
+                        <h2 className='md:pr-5 md:pl-5 pr-2 pl-2'>FullStack Developer</h2>
+                        <h2 className='md:pr-5 md:pl-5 pr-2 pl-2'>Computer Engineer</h2>
+                        <h2 className='md:pr-5 md:pl-5 pr-2 pl-2'>Marketing Enthusiast</h2>
                     </div>
                 </div>
             </div>
@@ -35,10 +35,10 @@ const Index = (props) => {
         
             <div className='flex items-center justify-center '>
                 <div className='bg-gradient-to-r from-transparent via-primary shadow-2xl ellipse flex items-center justify-center '>                 
-                    <div className='text-center leading-8 text-blue-900 uppercase tracking-widest'>
-                        <h3 className='text-xl font-bold'>graduation degree</h3>
-                        <h3 className='pr-8 pl-8 font-regular text-3xl pt-6'>Computer Engineer</h3>
-                        <h3 className='pr-8 pl-8 pt-5 font-bold text-xl pt-6'>ufu - university of uberlândia</h3>
+                    <div className='text-center md:leading-8 text-blue-900 uppercase tracking-widest mb-6'>
+                        <h3 className='md:text-xl text-lg font-bold'>graduation degree</h3>
+                        <h3 className='md:pr-8 md:pl-8 font-regular md:text-3xl text-2xl md:pt-6 pt-2'>Computer Engineer</h3>
+                        <h3 className='md:pr-8 md:pl-8 md:pt-5 font-bold md:text-xl text-base md:pt-6 pt-2'>ufu - university of uberlândia</h3>
                     </div>
                 </div>
             </div>                     
