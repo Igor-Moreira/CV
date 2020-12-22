@@ -20,10 +20,10 @@ const Index = (props) => {
             <div className=' simple-linear  rounded-full py-3 tracking-widest shadow-2xl'>                 
                 <div className=''>
                     <h1 className='uppercase text-center font-display text-gray-900 text-5xl'>what i do</h1>
-                    <div className='flex items-center justify-center  py-5 text-2xl mt-5 mb-10 leading-8 text-blue-900  font-bold uppercase'>
-                        <h2 className='pr-5 pl-5'>FullStack Developer</h2>
-                        <h2 className='pr-5 pl-5'>Computer Engineer</h2>
-                        <h2 className='pr-5 pl-5'>Marketing Enthusiast</h2>
+                    <div className='flex items-center justify-center  py-5 md:text-2xl mt-5 mb-10 leading-8 text-blue-900  font-bold uppercase'>
+                        <h2 className='md:pr-5 md:pl-5'>FullStack Developer</h2>
+                        <h2 className='md:pr-5 md:pl-5'>Computer Engineer</h2>
+                        <h2 className='md:pr-5 md:pl-5'>Marketing Enthusiast</h2>
                     </div>
                 </div>
             </div>
