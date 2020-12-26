@@ -59,7 +59,7 @@ const Index = (props) => {
             <div>
                 <p className='text-center py-12 '>You can find the source-code of this website:
                 <br />
-                <a href=''>https://github.com/Igor-Moreira/CV</a>
+                <a className='font-bold hover:underline' href='https://github.com/Igor-Moreira/CV'>https://github.com/Igor-Moreira/CV</a>
                 </p>
             </div>
         </div>
