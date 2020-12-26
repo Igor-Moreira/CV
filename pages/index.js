@@ -12,7 +12,7 @@ const Index = (props) => {
     return (
         // key -> identificação do repositório
         //<div className='bg-network'> 
-        <div className='bg-network container mx-auto'> 
+        <div className='bg-network container mx-auto body'> 
             <PageHead/>            
             <Hero/>     
 
