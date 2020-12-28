@@ -1,5 +1,4 @@
 import React from 'react'
-import getUser from '../utils/getUser'
 //Front-end
 //const Index = (props) => {
 // desctruction assigment, no qual user e repos é passado como parametro diretamente, e no código não precisara colocar props no inicio!
@@ -24,7 +23,8 @@ const Index = ({repos,user}) => {
 // td dentro desse export será injetado dentro de Index como propriedade, esse trecho será executado
 // no servidor (Backend)
 export async function getServerSideProps(context){
-    const {repos, user} = await getUser('Igor-Moreira')
+    const request = await fetch(process.env.API_URL + '/api/getUser')
+    const {repos, user} = await request.json()
     return {
         props:{
             currentDate: new Date().toString(),
