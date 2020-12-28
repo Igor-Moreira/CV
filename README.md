@@ -2,7 +2,7 @@
 
 Este projeto é o código-fonte do currículo de Igor Moriera, disponível em: https://cv.vercel.app/
 
-![Preview](https://github.com/Igor-Moreira/CV/blob/master/Screenshot.png?raw=true)
+![Preview](https://github.com/Igor-Moreira/cv.vercel.app/blob/master/Screenshot.png?raw=true)
 
 ## Início
 
