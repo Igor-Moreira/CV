@@ -1,5 +1,4 @@
 import React from 'react'
-import getUser from '../utils/getUser'
 import PageHead from '../components/PageHead';
 import Hero from '../components/Hero';
 import Summary from '../components/Summary';
@@ -23,8 +22,9 @@ const Index = ({repos,user}) => {
 }
 // td dentro desse export será injetado dentro de Index como propriedade, esse trecho será executado
 // no servidor (Backend)
-export async function getServerSideProps(context){
-    const {repos, user} = await getUser('Igor-Moreira')
+export async function getServerSideProps(context){    
+    const request = await fetch(process.env.API_URL + '/api/getUser')
+    const {repos, user} = await request.json()
     return {
         props:{
             currentDate: new Date().toString(),
