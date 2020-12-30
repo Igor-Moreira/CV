@@ -12,7 +12,9 @@ const Hero = () => {
                    <ContactMe/>
                 </div>                    
             </div>
-            <div className=' col-start-7 col-span-2'><img src ='/images/Igor-Moreira.png'/></div>
+            <div className=' md:col-start-7 md:col-span-2 '>
+                <img className='h-3/4 w-9/12  mx-12' src ='/images/Igor-Moreira.png'/>
+            </div>
         </div>
     )
 }

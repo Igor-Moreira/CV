@@ -3,25 +3,26 @@ import PageHead from '../components/PageHead';
 import Hero from '../components/Hero';
 import Summary from '../components/Summary';
 import Education from '../components/Education';
+import Hobbies from '../components/Hobbies';
 import Footer from '../components/Footer';
 import Repos from '../components/Repos/index'
 
-//Front-End
+
 const Index = ({repos,user}) => {
     return (
 
-        <div className='bg-network container mx-auto body'> 
+        <div className='bg-network container mx-auto body '>    
             <PageHead/>            
             <Hero/> 
             <Summary/>
             <Education/> 
+            <Hobbies/>
             <Repos user={user} repos={repos}/>
             <Footer/>        
         </div>
     )
 }
-// td dentro desse export será injetado dentro de Index como propriedade, esse trecho será executado
-// no servidor (Backend)
+
 export async function getServerSideProps(context){    
     const request = await fetch(process.env.API_URL + '/api/getUser')
     const {repos, user} = await request.json()
@@ -33,8 +34,4 @@ export async function getServerSideProps(context){
         }
     }
 }
-// foram ES6 
 export default Index
-
-//<pre>{JSON.stringify(props.repos, null, 2)}</pre> 
-//data <div>{props.currentDate}</div>
