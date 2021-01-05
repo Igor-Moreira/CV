@@ -9,7 +9,7 @@ const Education = () =>{
             </div>
             <div className='flex items-center justify-center '>
                 <div className='bg-gradient-to-r from-transparent via-primary shadow-2xl ellipse flex items-center justify-center '>                 
-                    <div className='text-center md:leading-8 text-blue-900 uppercase tracking-widest mb-6'>
+                    <div className='text-center md:leading-8 text-blue-900 uppercase tracking-widest mb-6 font-sans'>
                         <h3 className='md:text-xl text-lg font-bold'>graduation degree</h3>
                         <h3 className='md:pr-8 md:pl-8 font-regular md:text-3xl text-2xl md:pt-6 pt-2'>Computer Engineer</h3>
                         <h3 className='md:pr-8 md:pl-8 md:pt-5 font-bold md:text-xl text-base md:pt-6 pt-2'>ufu - university of uberlândia</h3>
