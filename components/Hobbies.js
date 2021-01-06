@@ -6,7 +6,7 @@ const Hobbies = () => {
     return( 
             <div className='md:grid md:grid-cols-6 md:gap-4 grid grid-cols-2 '>              
            
-                <div className='md:col-start-2 col-start-1 md:col-span-2 pt-28'>                      
+                <div className='md:col-start-2 md:col-start-1 md:col-span-2 pt-28'>                      
                     <button className='absolute rounded-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125 bg-primary py-2 px-10 md:px-12 md:mx-8 mx-10 -mt-5' href='https://open.spotify.com/playlist/50JMxV65bOe7kD5kKNxTN2'>
                         <a href='https://drive.google.com/file/d/1b-NiNphT8Zh-NgHWraVgg99lDnGvoF6q/view?usp=sharing'>
                             <h1 className='text-white text-xl font-bold uppercase font-sans font-bold'>CV</h1>

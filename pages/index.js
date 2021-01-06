@@ -11,7 +11,7 @@ import Repos from '../components/Repos/index'
 const Index = ({repos,user}) => {
     return (
 
-        <div className='container mx-auto '>    
+        <div className='container mx-auto'>    
             <PageHead/>            
             <Hero/> 
             <Summary/>
