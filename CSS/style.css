@@ -2,7 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
+.body{
+    margin-top: flex;
+    margin-right: flex;
+    margin-left: flex;
+    margin-bottom: flex;
+    
+}
 .bg-network{
     background-color: #E5E5E5;
     background-image: url(/images/Back1.png), url(/images/Back2.png) ;

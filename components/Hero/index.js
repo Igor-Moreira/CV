@@ -13,7 +13,7 @@ const Hero = () => {
                 </div>                    
             </div>
             <div className=' md:col-start-7 md:col-span-2 '>
-                <img className='h-3/4 w-9/12  mx-12' src ='/images/Igor-Moreira.png'/>
+                <img className='mx-12' src ='/images/Igor-Moreira.png'/>
             </div>
         </div>
     )
