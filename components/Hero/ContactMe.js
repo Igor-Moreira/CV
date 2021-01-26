@@ -15,7 +15,7 @@ const ContactMe = () => {
                     <li  className='pr-8 pl-8 transition duration-500 ease-in-out  transform hover:-translate-y-1 hover:scale-125'>
                         <a href='https://github.com/Igor-Moreira'><FaGithub /></a></li>
                 </ul>
-                <h1 className='flex items-center justify-center font-sans'> or drop a line: igor_moreira@live.com </h1>                                                            
+                <h1 className='flex items-center justify-center font-sans'> or drop a line: igor_moreira@ufu.br </h1>                                                            
             </div>        
     )
 }
