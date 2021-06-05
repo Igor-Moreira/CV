@@ -17,8 +17,9 @@ const Index = ({repos,user}) => {
             <Summary/>
             <Education/> 
             <Hobbies/>
+            <Footer/>  
             <Repos user={user} repos={repos}/>
-            <Footer/>        
+                  
         </div>
     )
 }
